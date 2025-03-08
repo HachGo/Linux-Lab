@@ -6,11 +6,11 @@ Actually this post i want to record the git command on linux, and how to use git
 
 # what is git - 什么是git
 
-> [!note] what is git
+> [!note] 
+> 
+> what is git
 > 
 > git is a distribution system to control the code version, and also now can control any file version. so i use it control my knowledge base file on github.
-
-
 
 Git 是一个用于控制代码版本的分布式系统，现在也可以控制任何文件的版本。所以我使用它来控制我的知识库文件在 GitHub 上的版本。通俗讲，git是一个可以控制你系统文件版本的一个控制系统，内里集成了很多用于版本控制的功能，可以通过不同的命令进行文件的版本控制，这是一个十分高效的版本控制+记录的系统，可以极大的省去各种繁琐和无效的版本记录时间。
 
@@ -27,8 +27,6 @@ Git 是一个用于控制代码版本的分布式系统，现在也可以控制�
 - https://git-scm.com/downloads - 官方下载界面
 
 只需要点击右侧的按钮下载git安装包，按照正常的程序点击安装即可，和其他软件是一样的
-
-![[Pasted image 20250308110704.png]]
 
 ![](../images/Pasted%20image%2020250308110704.png)
 
@@ -127,19 +125,34 @@ git push -u origin main
 
 -u 参数会将 origin master 设置为默认的远程分支，这样以后你只需要运行 git push 就可以推送到这个分支。
 
-> [!note] 初始提交时需要选择如何合并版本的方式
+
+
+> [!note] 
+> 
+> 初始提交时需要选择如何合并版本的方式
 > 
 > hint: You have divergent branches and need to specify how to reconcile them.
+> 
 > hint: You can do so by running one of the following commands sometime before
+> 
 > hint: your next pull:
+> 
 > hint: 
+> 
 > hint:   git config pull.rebase false  # merge (the default strategy)
+> 
 > hint:   git config pull.rebase true   # rebase
+> 
 > hint:   git config pull.ff only       # fast-forward only
+> 
 > hint: 
+> 
 > hint: You can replace "git config" with "git config --global" to set a default
+> 
 > hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+> 
 > hint: or --ff-only on the command line to override the configured default per
+> 
 > hint: invocation.
 
 
@@ -150,7 +163,6 @@ git push -u origin main
   - 保留两个分支的完整提交历史，可以选择合并策略
 - `--ff-only`：仅允许快进。
   - 在远程分支领先于本地分支时进行快进，而不进行合并或变基，可以选择仅快进策略
-
 
 # gitignore 配置某个文件不参与远程分支同步
 
@@ -163,21 +175,19 @@ The file .gitignore is the file for git system to know which file will not be in
 
 2. 向 .gitignore 文件添加不需要同步的目录或者文件
 
-
-
 ![](../images/Pasted%20image%2020250308114841.png)
 
 3. 保存文件。
 
 4. 如果该文件已经被 Git 跟踪，需要先从 Git 中移除它：
    
-   ```
+   ```bash
    git rm --cached .obsidian/workspace.json
    ```
 
 5. 再提交更改：
    
-   ```
+   ```bash
    git add .gitignore
    git commit -m "Ignore .obsidian/workspace.json"
    ```

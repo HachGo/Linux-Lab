@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e2725bf7a9b8f30",
+        "id": "f75ca47da6aab61e",
         "type": "tabs",
         "children": [
           {
-            "id": "762f19a5f3d3f9d9",
+            "id": "5d66b13abb5050d0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,7 +162,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "762f19a5f3d3f9d9",
+  "active": "5d66b13abb5050d0",
   "lastOpenFiles": [
     "application in linux/git on Linux.md",
     "application in linux/Build The Blog With Hexo In Linux.md",
