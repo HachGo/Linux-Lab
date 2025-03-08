@@ -1,1 +1,6 @@
-{}
+{
+  "textFontFamily": "Microsoft YaHei",
+  "theme": "obsidian",
+  "cssTheme": "Obsidian Nord",
+  "accentColor": "#8160be"
+}
