@@ -11,10 +11,14 @@
             "id": "5d66b13abb5050d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "document/初入门者如何选择linux发行版本.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "初入门者如何选择linux发行版本"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "application in linux/git on Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "git on Linux 的反向链接列表"
             }
           },
           {
@@ -137,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "document/初入门者如何选择linux发行版本.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "初入门者如何选择linux发行版本 的大纲"
             }
           }
         ],
@@ -164,11 +170,16 @@
   },
   "active": "5d66b13abb5050d0",
   "lastOpenFiles": [
+    "document/grub setting.md",
+    "document/Linux参考学习.md",
+    "application in linux/todo.txt语法-中文.md",
+    "document/初入门者如何选择linux发行版本.md",
+    "document/003_初入门者如何选择linux发行版本.md",
+    "application in linux/todotxt_README.md",
+    "000_Linux and me.md",
     "application in linux/git on Linux.md",
     "application in linux/Build The Blog With Hexo In Linux.md",
-    "document/Linux参考学习.md",
     "document/初入门者如何选择发行版.md",
-    "README.md",
-    "000_Linux and me.md"
+    "README.md"
   ]
 }
