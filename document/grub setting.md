@@ -7,6 +7,7 @@ You need to edit the `/etc/default/grub` file with root privileges. You can use 
 ```bash
 sudo nano /etc/default/grub
 ```
+
 ## **2. Find the `GRUB_TIMEOUT` line:**
 
 In the file, look for the line that starts with `GRUB_TIMEOUT`. It might be set to a different value (like `5` or `0`) or it might be commented out with a `#` at the beginning.
@@ -47,7 +48,6 @@ If you want a hidden menu that only appears if you press a key, you can use `GRU
 - **If you are using `vim`:** Press `Esc` to enter command mode, then type `:wq` and press `Enter` to write and quit.
 - **If you are using `gedit` (or another graphical editor):** Click the "Save" button and then close the editor.
 
-
 ## 6. **Update GRUB**:
 
 This is the crucial step to apply the changes you made to the grub file. Run the following command in the terminal:
@@ -58,6 +58,7 @@ sudo update-grub
 ```
 
 This command will regenerate the GRUB configuration file (/boot/grub/grub.cfg) based on the settings in /etc/default/grub and other configuration files.
+
 ### 1. Reboot your system:
 
 Restart your computer to see the changes in the GRUB menu:
@@ -73,7 +74,7 @@ Now, when your system starts, you should see the GRUB menu for 10 seconds before
 >    update-grub is essential: Simply editing /etc/default/grub will not change the GRUB timeout. You must run sudo update-grub for the changes to be applied.
 
 > [!note]
-Manjaro GRUB: Manjaro uses a customized GRUB. Make sure you are modifying the correct /etc/default/grub file for your Manjaro installation, especially if you have a dual-boot setup. Usually, running sudo update-grub from within Manjaro will update the correct GRUB configuration.
+> Manjaro GRUB: Manjaro uses a customized GRUB. Make sure you are modifying the correct /etc/default/grub file for your Manjaro installation, especially if you have a dual-boot setup. Usually, running sudo update-grub from within Manjaro will update the correct GRUB configuration.
 
 > [!note] 
-No Errors: If you encounter errors when running sudo update-grub, carefully check the changes you made to /etc/default/grub for typos or incorrect syntax.
+> No Errors: If you encounter errors when running sudo update-grub, carefully check the changes you made to /etc/default/grub for typos or incorrect syntax.

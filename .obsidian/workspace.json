@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/初入门者如何选择linux发行版本.md",
+                "file": "document/初入门者如何选择Linux发行版本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "初入门者如何选择linux发行版本"
+              "title": "初入门者如何选择Linux发行版本"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 247.5
   },
   "right": {
     "id": "2c687f110c8220ee",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/初入门者如何选择linux发行版本.md",
+                "file": "document/初入门者如何选择Linux发行版本.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "初入门者如何选择linux发行版本 的大纲"
+              "title": "初入门者如何选择Linux发行版本 的大纲"
             }
           }
         ],
@@ -156,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,15 +170,15 @@
   },
   "active": "5d66b13abb5050d0",
   "lastOpenFiles": [
-    "document/grub setting.md",
-    "document/Linux参考学习.md",
-    "application in linux/todo.txt语法-中文.md",
-    "document/初入门者如何选择linux发行版本.md",
-    "document/003_初入门者如何选择linux发行版本.md",
     "application in linux/todotxt_README.md",
-    "000_Linux and me.md",
+    "application in linux/todo.txt语法-中文.md",
     "application in linux/git on Linux.md",
+    "document/初入门者如何选择Linux发行版本.md",
+    "document/Linux参考学习.md",
+    "000_Linux and me.md",
+    "document/grub setting.md",
     "application in linux/Build The Blog With Hexo In Linux.md",
+    "document/003_初入门者如何选择linux发行版本.md",
     "document/初入门者如何选择发行版.md",
     "README.md"
   ]
