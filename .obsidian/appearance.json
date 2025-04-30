@@ -1,6 +1,9 @@
 {
-  "textFontFamily": "Microsoft YaHei",
-  "theme": "obsidian",
+  "accentColor": "#7960be",
+  "theme": "moonstone",
+  "baseFontSize": 11,
+  "textFontFamily": "MathJax_Math",
   "cssTheme": "Obsidian Nord",
-  "accentColor": "#8160be"
+  "enabledCssSnippets": [],
+  "baseFontSizeAction": true
 }

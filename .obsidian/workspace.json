@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "257e2ec277a25b85",
+    "id": "5a503ec9e55bfc07",
     "type": "split",
     "children": [
       {
-        "id": "f75ca47da6aab61e",
+        "id": "34dd7272c7d5cb29",
         "type": "tabs",
         "children": [
           {
-            "id": "5d66b13abb5050d0",
+            "id": "87974627c1687679",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "application in linux/git 格式问题.md",
+                "file": "application in linux/Build The Blog With Hexo In Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git 格式问题"
+              "title": "Build The Blog With Hexo In Linux"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "32296e18accffd85",
+    "id": "4d0bb02a97c2ece8",
     "type": "split",
     "children": [
       {
-        "id": "89707b04a417dbac",
+        "id": "64146284d662df20",
         "type": "tabs",
         "children": [
           {
-            "id": "2e21ae035d143d71",
+            "id": "7e623f3e00393784",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "a7c6005f42a55b24",
+            "id": "aff253da4962d32d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,40 +61,50 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
-            "id": "58dc8180271a5670",
+            "id": "db41f89cd3e187fb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "bc1fcd69f9c877a0",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 337.5
   },
   "right": {
-    "id": "2c687f110c8220ee",
+    "id": "7c5c7ffd6771f8ce",
     "type": "split",
     "children": [
       {
-        "id": "0d004fcb25d3ea66",
+        "id": "b1583c44b7113460",
         "type": "tabs",
         "children": [
           {
-            "id": "404bb5e7a23a75e5",
+            "id": "c123486874257ccd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "application in linux/git on Linux.md",
+                "file": "Daily_note/2025-04-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +114,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "git on Linux 的反向链接列表"
+              "title": "2025-04-07 的反向链接列表"
             }
           },
           {
-            "id": "d2283cfe19a56276",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "README 的出链列表"
-            }
-          },
-          {
-            "id": "ccb2c4a5e96964b4",
+            "id": "53bbd745c54b4e88",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +133,38 @@
             }
           },
           {
-            "id": "0f4743a18f52079f",
+            "id": "0a5ee6bf36a80421",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "application in linux/git 格式问题.md",
+                "file": "Daily_note/2025-04-30.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git 格式问题"
+              "title": "Outline of 2025-04-30"
+            }
+          },
+          {
+            "id": "2240d0085c8dc03c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "730f0a1b0bd3eaa7",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -156,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,24 +181,71 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-projects:Open projects": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "cursor-bridge:Open in Cursor": false,
+      "copilot:Open Copilot Chat": false,
+      "wechat-public-platform:发布到草稿箱": false
     }
   },
-  "active": "5d66b13abb5050d0",
+  "active": "87974627c1687679",
   "lastOpenFiles": [
-    "application in linux/git on Linux.md",
     "application in linux/git 格式问题.md",
-    "document/输入法.md",
-    "document/Untitled.md",
     "application in linux/Build The Blog With Hexo In Linux.md",
+    "application in linux/git on Linux.md",
     "application in linux/todo.txt语法-中文.md",
     "application in linux/todotxt_README.md",
+    "document/初入门者如何选择Linux发行版本.md",
+    "document/输入法.md",
     "document/grub setting.md",
     "document/Linux参考学习.md",
     "000_Linux and me.md",
-    "document/初入门者如何选择Linux发行版本.md",
-    "document/003_初入门者如何选择linux发行版本.md",
-    "document/初入门者如何选择发行版.md",
-    "README.md"
+    "Layer_4_Project/99_Yself/001驾驶证/01驾驶证考取总结.md",
+    "Layer_1_start/02_principles/001_知识库原则及体系.md",
+    "Layer_4_Project/99_Yself/Self-exams/报考流程.md",
+    "Layer_4_Project/99_Yself/Self-exams/招生简章.pdf",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250425201413.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/001_学习.md",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250425202723.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250425204938.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250425205339.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250425205733.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250425210109.png",
+    "Daily_note/2025-04-30.md",
+    "Daily_note/2025-04-17.md",
+    "Daily_note/2025-04-18.md",
+    "Daily_note/2025-04-19.md",
+    "Daily_note/2025-04-25.md",
+    "Daily_note/2025-04-26.md",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250426205004.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250426204722.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250426204415.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image/Pasted image 20250426204325.png",
+    "Layer_4_Project/2025/03_全媒体学习与实践/000_image",
+    "Layer_4_Project/2025/03_全媒体学习与实践/新建文件夹",
+    "template/{{date}}.md",
+    "Daily_note/Week Done/2025-W18.md",
+    "Daily_note/Week Done/2025-W17.md",
+    "Daily_note/2025-04-23.md",
+    "Layer_5_Super_Individual/00_创作与发布.md",
+    "Layer_4_Project/2025/03_全媒体学习与实践",
+    "Layer_4_Project/2025/02_job_lplanning/002_项目侧的职业.md",
+    "Layer_4_Project/2025/01_find_job/002_求职公司及材料/磐沄科技-机试题目/用excel打开版本-BUS Interview Token Price Data.xlsx",
+    "Layer_4_Project/2025/01_find_job/002_求职公司及材料/磐沄科技-机试题目/用excel打开版本-answer-何松林-BUS Interview Car Inventory Data.xlsx",
+    "Layer_4_Project/2025/01_find_job/002_求职公司及材料/磐沄科技-机试题目/excel2.txt",
+    "Layer_4_Project/2025/01_find_job/002_求职公司及材料/磐沄科技-机试题目/excel.txt",
+    "Layer_4_Project/2025/01_find_job/002_求职公司及材料/磐沄科技-机试题目/BUS Interview Token Price Data - 原本.xlsx",
+    "Layer_4_Project/2025/01_find_job/002_求职公司及材料/磐沄科技-机试题目/BUS Interview Car Inventory Data.xlsx",
+    "Layer_4_Project/2025/01_find_job/003_求职分析/自我定位.canvas",
+    "Layer_4_Project/2025/01_find_job/003_求职分析/投递.canvas",
+    "Layer_4_Project/2025/01_find_job/自我定位.canvas",
+    "Layer_4_Project/2025/01_find_job/投递.canvas",
+    "Layer_1_start/02_principles/知识库内容发布.canvas",
+    "Layer_1_start/02_principles/未命名 1.canvas"
   ]
 }
